@@ -24,6 +24,8 @@ The skeletal structure supports animation with proper bone chains for spine, arm
 
 I have build a scriptable tools, where we can mass select level sequence, right click and hit "Do Playblast for Selected Level Sequence". It's in the third github folder (03_AnimationPlayblastUEProjects): https://github.com/adamvirtualspace-lab/adamunrealpipelinetdtest/tree/main/03_AnimationPlayblastUEProjects
 
+![Playblast Right-Click Menu](https://raw.githubusercontent.com/adamvirtualspace-lab/adamunrealpipelinetdtest/refs/heads/main/03_AnimationPlayblastUEProjects/RightClickPlayblastForAllSelectedLS.png)
+
 **Workflow:**
 1. Select one or multiple level sequences in the content browser
 2. Right-click → "Do Playblast for Selected Level Sequence"
