@@ -22,17 +22,29 @@ The skeletal structure supports animation with proper bone chains for spine, arm
 
 ## 3️⃣ Animation - Playblast Tool
 
-I have build a scriptable tools, where we can mass select level sequence, right click and hit "Do Playblast for Selected Level Sequence". It's in the third github folder (03_AnimationPlayblastUEProjects): https://github.com/adamvirtualspace-lab/adamunrealpipelinetdtest/tree/main/03_AnimationPlayblastUEProjects
+I have built a scriptable tool where we can mass select level sequences, right click and hit "Do Playblast for Selected Level Sequence". It's in the third github folder (03_AnimationPlayblastUEProjects): https://github.com/adamvirtualspace-lab/adamunrealpipelinetdtest/tree/main/03_AnimationPlayblastUEProjects
 
 ![Playblast Right-Click Menu](https://raw.githubusercontent.com/adamvirtualspace-lab/adamunrealpipelinetdtest/refs/heads/main/03_AnimationPlayblastUEProjects/RightClickPlayblastForAllSelectedLS.png)
 
-**Workflow:**
-1. Select one or multiple level sequences in the content browser
-2. Right-click → "Do Playblast for Selected Level Sequence"
-3. Tool renders preview with current viewport settings
-4. Output saves to configurable directory
+**How it works:**
 
-This automation streamlines the animation review and approval cycle by eliminating manual preview setup for each sequence.
+Simply multiple select level sequences, right click and hit the scripted asset action "Do Playblast for Selected Level Sequence". The tool automatically:
+- Creates necessary job entries
+- Generates output asset directories for the movie render queue
+- Detects and sets the asset directory path
+- Allows customization through the default playback tools settings
+
+**Burn-in information:**
+
+The tool can be configured to display burn-in metadata on the rendered preview, including:
+- Frame number
+- Shot name
+- Focal length
+- Date and job name
+- User and computer information
+- All other level sequence metadata
+
+The tool uses optimized render settings for fast preview generation while maintaining clarity for review purposes.
 
 ---
 
