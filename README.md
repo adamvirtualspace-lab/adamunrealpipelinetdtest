@@ -8,6 +8,8 @@ I have committed here. In the first folder in the github there is a pdf that can
 
 There's also an online version available on Milanote: https://app.milanote.com/1W0YJG1oCvCK6V?p=hLiaRMOpPQY
 
+![Pipeline Workflow Preview](https://raw.githubusercontent.com/adamvirtualspace-lab/adamunrealpipelinetdtest/refs/heads/main/01_Workflow/IdealPipelineImageOnlyPreview/IdealPipelineImageOnlyPreview.PNG)
+
 The flowchart covers each stage from concept design and character drawing through rigging, animation approval, and final scene integration. It includes decision points for approval and revision cycles that occur in production workflows.
 
 ---
