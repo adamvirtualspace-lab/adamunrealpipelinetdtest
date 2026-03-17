@@ -16,6 +16,8 @@ The flowchart covers each stage from concept design and character drawing throug
 
 In the second folder of the github (02_Assets): https://github.com/adamvirtualspace-lab/adamunrealpipelinetdtest/tree/main/02_Assets I have uploaded both the blender rig and the exported skeletal mesh. For the imported version of the skeletal mesh, it's in the third folder where I uploaded the whole unreal project along with the playblast tools & effects.
 
+![Skeletal Mesh Preview](https://raw.githubusercontent.com/adamvirtualspace-lab/adamunrealpipelinetdtest/refs/heads/main/02_Assets/BlenderUnrealSkeletalAssetPreview.png)
+
 The skeletal structure supports animation with proper bone chains for spine, arms, and legs. Weight painting has been applied for natural deformation during animation.
 
 ---
@@ -71,6 +73,40 @@ Inside there's "05A_PatternB.py" where the script generate star pattern and the 
 ### 5A - Pattern Generation (`05A_PatternB.py`)
 
 This script generates ASCII art using nested loops to create a symmetric diamond pattern. The outer edge uses "x" characters while inner layers use "—" characters to form geometric shapes.
+
+**Output preview:**
+```
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx----xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxx--xxxx--xxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxx------------xxxxxxxxxxxxxxxx------------xxxxxxxxxx
+xxxxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx
+xxxxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx
+xxxxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx
+xxxxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx
+xxxxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx
+xxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxx
+xxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxx
+xxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxx
+xx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xx
+--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--
+xx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xx
+xxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxx
+xxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxx
+xxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxx
+xxxxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx
+xxxxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx
+xxxxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx
+xxxxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxx
+xxxxxxxxxx------------xxxxxxxxxxxxxxxx------------xxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxx--xxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxx--xxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxx--xxxx--xxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx----xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
 
 ### 5B - Character Names Corrector (`05B_CharNamesCorrecter.py`)
 
