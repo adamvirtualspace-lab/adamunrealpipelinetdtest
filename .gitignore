@@ -1,0 +1,11 @@
+# Unreal Engine
+Binaries/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+DerivedDataCache/
+*.opensearch
+Plugins/Marketplace/
